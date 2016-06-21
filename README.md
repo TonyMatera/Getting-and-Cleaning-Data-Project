@@ -1,7 +1,6 @@
 # Getting-and-Cleaning-Data-Project
 
-#### Course project for the Getting and Cleaning Data course
-#### of the Coursera Data Science track.
+##### Course project for the Getting and Cleaning Data course of the Coursera Data Science track.
 
 The R Script file "run_analysis.R" is used to load the data sets and perform
 the necessary tasks as listed below. The R script assumes you have downloaded
@@ -24,9 +23,9 @@ The "run_analysis.R" file performs the following tasks:
 ...Note: This excludes the "...meanFreq" variables as those were not requested
 ...to be pulled.
 8. Updates the variable names to with variable name text standards as follows:
-..* Removes the periods
-..* Removes duplicate "Body"s in variable names
-..* Changes all the characters to lower case
+	* Removes the periods
+	* Removes duplicate "Body"s in variable names
+	* Changes all the characters to lower case
 9. Create new data frame called "meansandstdsavgs" that groups the measurements
 ...by subject and activity and calculates the mean of each variable for each
 ...group.
